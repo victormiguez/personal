@@ -1,0 +1,19 @@
+{
+  "name": "victor-personal-site",
+  "version": "0.0.1",
+  "description": "Página pessoal de portfólio",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test ": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Victor Miguez",
+  "license": "MIT",
+  "devDependencies": {
+    "browser-sync": "^1.3.0",
+    "gulp": "^3.8.6",
+    "gulp-compass": "^1.1.9",
+    "gulp-concat": "^2.3.4",
+    "gulp-jade": "^0.6.1",
+    "gulp-uglify": "^0.3.1"
+  }
+}
