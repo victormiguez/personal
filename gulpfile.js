@@ -20,9 +20,9 @@ gulp.task('template', function(){
 });
 
 gulp.task('b-s', function() {
-  browserSync.init(['./_dist/**/*'], {
+  browserSync.init('./_dist/**/*', {
     server: {
-      baseDir: "./_dist"
+      baseDir: './_dist'
     }
   });
 });
